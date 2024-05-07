@@ -3,9 +3,9 @@ Listing 8 BAA-Bits/Bits.java Page 26
 
 ### 5.1.4 Bit-wise operators
 
-We can operate on variables of integral types (mainly `int`) treating them as “buckets” of single bits. In what follows, remember that operations of shifting, ANDing, ORing etc., that we discuss, do not modify their arguments: they return new values that we have to handle in some way (display, assign to a variables, and so on).
+We can operate on variables of integral types (mainly `int`) treating them as “buckets” of single bits. In what follows, remember that operations of shifting, ANDing, ORing etc., that we discuss, do not modify their arguments: they return _new_ values that we have to handle in some way (display, assign to a variables, and so on).
 
-As we know, data in a variable is stored as a sequence of bits, conventionally represented by 0 and 1. In particular an int consists of 32 bits. We can interpret individual bits as coefficients at powers of 2: the rightmost (least significant) bit is the coefficient at 2<sup>0</sup>, the next, from the right, at 2<sup>1</sup>, the next at 2<sup>2</sup> and so on, to the last (i.e., the leftmost, most significant) bit which stands at 231.
+As we know, data in a variable is stored as a sequence of bits, conventionally represented by 0 and 1. In particular an int consists of 32 bits. We can interpret individual bits as coefficients at powers of 2: the rightmost (least significant) bit is the coefficient at 2<sup>0</sup>, the next, from the right, at 2<sup>1</sup>, the next at 2<sup>2</sup> and so on, to the last (i.e., the leftmost, most significant) bit which stands at 2<sup>31</sup>.
 
 ### Shifting
 Shift operators act on values of integral types: they yield another value, which corresponds to the original one but with all bits shifted by a specified number of positions to the left or to the right.
