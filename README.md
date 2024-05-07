@@ -45,7 +45,7 @@ b          1 0 0 0 0 1 1 0
 a & b      1 0 0 0 0 1 0 0
 ```
 
-For bit-wise OR operator (|), each bit of the result is 1 if there is at least one 1 at the corresponding position in operands, and 0 if both bits in the operands are 0
+For bit-wise OR operator (`|`), each bit of the result is 1 if there is at least one 1 at the corresponding position in operands, and 0 if both bits in the operands are 0
 
 ```
 a          1 0 1 0 0 1 0 0
@@ -53,7 +53,7 @@ b          1 0 0 0 0 1 1 0
 a | b      1 0 1 0 0 1 1 0
 ```
 
-The bit-wise XOR operator (^), sets a bit of the result to 1 if bits at the corresponding position in operands are different, and to 0 if they are the same
+The bit-wise XOR operator (`^`), sets a bit of the result to 1 if bits at the corresponding position in operands are different, and to 0 if they are the same
 
 ```
 a        1 0 1 0 0 1 0 0
