@@ -1,8 +1,7 @@
 # 8.BAA-Bits
 Listing 8 BAA-Bits/Bits.java Page 26
 
-### 5.1.4
-### Bit-wise operators
+### 5.1.4 Bit-wise operators
 
 We can operate on variables of integral types (mainly `int`) treating them as “buckets” of single bits. In what follows, remember that operations of shifting, ANDing, ORing etc., that we discuss, do not modify their arguments: they return new values that we have to handle in some way (display, assign to a variables, and so on).
 
